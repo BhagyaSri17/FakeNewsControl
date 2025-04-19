@@ -56,5 +56,9 @@ This project aims to detect and control the spread of misinformation and negativ
 7. Configure the database connection in your Java backend using JDBC.  
 8. Deploy the project on **Apache Tomcat 9**.  
 9. Launch the application in a browser and log in as a user or admin.
-<br>
-<br>
+
+## **Required Files (Not Included in Repository)**
+To run this project successfully, please download the following files and add them manually:
+- stanford-corenlp-4.5.8-models.jar
+- onnxruntime-1.21.0.jar
+- fake_news_model1.onnx (custom-trained ONNX model) should also be added manually.
